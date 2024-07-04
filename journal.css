@@ -1,0 +1,77 @@
+.Header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #E4A0FF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .overlay_mood, .overlay_rating, .overlay_joy, .overlay_email {
+    position: absolute;
+    top: 40%; 
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: 190px;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+  
+  .overlay_mood {
+    left: 40%; 
+    height: 110px;
+  }
+  
+  .overlay_rating {
+    left: 60%; 
+    height: 110px;
+  }
+  
+  .overlay_joy {
+    top: 60%; 
+    left: 40%; 
+    height: 170px;
+  }
+  
+  .overlay_email {
+    top: 60%; 
+    left: 60%; 
+    height: 110px;
+  }
+  
+  .submit_button {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #E4A0FF;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .submit_button:hover {
+    background-color: #AE35FF;
+  }
+
+  .delete_button {
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color:#E4A0FF;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .delete_button:hover {
+    background-color: #AE35FF;
+  }

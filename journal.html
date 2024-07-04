@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Daily, Journal" />
+    <meta
+      name="description"
+      content="A Journal Where you can post how you are feeling and reflect on the day"
+    />
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="journal.css" />
+  </head>
+  <body style="background-color: mediumaquamarine">
+    <h1 class="Header">Welcome to Your Daily Journal</h1>
+    <img
+      src="Journal2.png"
+      alt="A transparent Image of a Journal in the Center of the Page"
+    />
+    <form id="journalForm">
+      <div class="overlay_mood">
+        <p class="mood">How can you describe your Mood about today?</p>
+        <br />
+        <input type="text" id="mood" name="mood" /> <br /><br />
+      </div>
+      <div class="overlay_rating">
+        <p class="rating">
+          How Would you Rate Today out of 10? (Please Input a Number)
+        </p>
+        <input type="text" id="rating" name="rating" /> <br /><br />
+      </div>
+      <div class="overlay_joy">
+        <p class="joy">What was One Thing that Brought you Joy?</p>
+        <br />
+        <textarea id="joy" name="joy" rows="4" cols="21"> </textarea>
+        <br />
+      </div>
+      <div class="overlay_email">
+        <p class="email">What is your Email?</p>
+        <br />
+        <input type="text" id="email" name="email" /> <br /><br />
+        <br />
+      </div>
+      <button type="submit" class="submit_button">Submit</button>
+      <button type="button" id="deleteEmailButton" class="delete_button">
+        Delete Email
+      </button>
+    </form>
+
+    <script src="journalForm.js"></script>
+    <br />
+  </body>
+</html>
