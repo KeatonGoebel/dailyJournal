@@ -6,3 +6,6 @@ Daily Journal is a website developed using HTML, CSS, and Javascript and connect
 The daily reminders and weekly summaries are programmed using Javascript and called automatically using Cron jobs set up on my local workstation.
 For the daily reminders, a query is sent to the database which retrieves all the unique emails on the database. For each email in the list, an email is sent with a link to the website. For the weekly summaries, a query is sent which retrieves all the unique emails on the database that made an entry in the last week. For each email in the list, it calculates certain things like the highest rated day, the lowest rated day, and the average score. It then produces an email and sends it to the email address.
  
+<a href="https://example.com">
+  <img src="https://github.com/your-username/your-repository/raw/main/images/new-image.png" width="800" height="600" alt="New Image Description">
+</a>
