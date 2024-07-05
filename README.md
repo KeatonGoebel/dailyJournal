@@ -5,5 +5,5 @@ The daily reminders and weekly summaries are programmed using Javascript and cal
 For the daily reminders, a query is sent to the database which retrieves all the unique emails on the database. For each email in the list, an email is sent with a link to the website. For the weekly summaries, a query is sent which retrieves all the unique emails on the database that made an entry in the last week. For each email in the list, it calculates certain things like the highest rated day, the lowest rated day, and the average score. It then produces an email and sends it to the email address.
  
 <a href="(https://github.com/KeatonGoebel/dailyJournal/edit/main/README.md)">
-  <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/4214697f-5000-4cb4-a19e-0fdf3c88ec9a" width="800" height="600" alt="The Mystery of Xanath's Mansion">
+  <img src="(https://github.com/KeatonGoebel/dailyJournal/blob/main/screenshot)" width="800" height="600">
 </a>
