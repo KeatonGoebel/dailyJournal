@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       user: 'dailyjournalproj@gmail.com',
-      pass: 'yleq iffw lucy ghul' // Special Password for third-party apps
+      pass: 'password' // Special Password for third-party apps
     }
 });
 
