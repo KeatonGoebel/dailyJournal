@@ -1,4 +1,4 @@
-Header {
+.Header {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #E4A0FF;
@@ -14,7 +14,6 @@ Header {
   .overlay_mood, .overlay_rating, .overlay_joy, .overlay_email {
     position: absolute;
     top: 40%; 
-    transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     text-align: center;
@@ -25,30 +24,26 @@ Header {
   }
   
   .overlay_mood {
-    left: 40%; 
-    height: 110px;
+    left: 40%;
   }
   
   .overlay_rating {
     left: 60%; 
-    height: 110px;
   }
   
   .overlay_joy {
     top: 63%; 
     left: 40%; 
-    height: 170px;
   }
   
   .overlay_email {
     top: 63%; 
     left: 60%; 
-    height: 110px;
   }
   
   .submit_button {
     position: absolute;
-    top: 100%;
+    top: 105%;
     left: 40%;
     transform: translate(-50%, -50%);
     background-color: #E4A0FF;
@@ -63,7 +58,7 @@ Header {
 
   .delete_button {
     position: absolute;
-    top: 100%;
+    top: 105%;
     left: 60%;
     transform: translate(-50%, -50%);
     background-color:#E4A0FF;
