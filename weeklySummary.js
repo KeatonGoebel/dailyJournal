@@ -2,10 +2,10 @@ const mysql = require('mysql');
 const nodemailer = require('nodemailer');
 
 const con = mysql.createConnection({
-    host: "localhost",
-    user: "kgoebel",
-    password: "Goebel*0043",
-    database: "journal"
+    host: "host",
+    user: "username",
+    password: "password",
+    database: "database_name" 
 });
 
 // Log into Dailyjournal Google Account
