@@ -1,11 +1,11 @@
-const mysql = require('mysql');
+naconst mysql = require('mysql');
 const nodemailer = require('nodemailer');
 
 const dbConfig = {
-    host: "localhost",
-    user: "kgoebel",
-    password: "Goebel*0043",
-    database: "journal" 
+    host: "host",
+    user: "username",
+    password: "password",
+    database: "database_name" 
 };
 
 // Log into Dailyjournal Google Account
