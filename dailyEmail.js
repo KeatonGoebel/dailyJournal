@@ -52,7 +52,7 @@ function sendEmail(email) {
     from: 'dailyjournalproj@gmail.com',
     to: email,
     subject: 'Daily Journal',
-    text: 'Thank you for using Daily Journal! \n\nIf you would you like to fill out your journal for today, just go to the link below. \n\n https://www.google.co.uk/'
+    text: 'Thank you for using Daily Journal! \n\nIf you would you like to fill out your journal for today, just go to the link below. \n\n https://keatongoebel.github.io/dailyJournal/'
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
