@@ -1,2 +1,3 @@
 0 20 * * * /path/to/node /path/to/dailyEmail.js
 0 20 * * 5 /path/to/node /path/to/weeklySummary.js 
+* * * * * /path/to/node /path/to/server.js
